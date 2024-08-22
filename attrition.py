@@ -18,7 +18,7 @@ st.subheader("Welcome to the Attrition Predictor")
 @st.cache_resource  # Use st.cache_data for Streamlit 2.x
 def load_model():
     try:
-        with open('model.pkl', 'rb') as model:
+        with open('model.pickle', 'rb') as model:
             return pickle.load(model)
     except Exception as e:
         st.error(f"Error loading model: {e}")
