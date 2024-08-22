@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 import pickle
 import streamlit as st
+from PIL import Image 
 
 # Set page layout
 st.set_page_config(layout="centered")
@@ -18,7 +19,7 @@ st.subheader("Welcome to the Attrition Predictor")
 @st.cache_resource  # Use st.cache_data for Streamlit 2.x
 def load_model():
     try:
-        with open('model.pickle', 'rb') as model:
+        with open('model.pkl', 'rb') as model:
             return pickle.load(model)
     except Exception as e:
         st.error(f"Error loading model: {e}")
