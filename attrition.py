@@ -7,7 +7,6 @@ Created on Wed Aug 21 09:05:27 2024
 
 import numpy as np
 import pandas as pd
-from sklearn.metrics import accuracy_score
 import pickle
 import streamlit as st
 
