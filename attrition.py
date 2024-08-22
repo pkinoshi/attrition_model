@@ -36,7 +36,6 @@ def main():
     jobLevel = st.selectbox("Job Level", job_level_list)#, "Enter job level of employee"
     salaryPerJobLevel = st.number_input("Enter the average salary for the employee's job level")
     departmentLevelSalary = st.number_input("Enter average salary in the employee's department")
-    #result=""
     
     if st.button("Predict"):
         result = predict_attrition(salary, jobLevel, salaryPerJobLevel, departmentLevelSalary)
