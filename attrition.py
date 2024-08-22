@@ -8,6 +8,8 @@ Created on Wed Aug 21 09:05:27 2024
 import numpy as np
 import pandas as pd
 import pickle
+import sklearn
+from sklearn import preprocessing
 import streamlit as st
 from PIL import Image 
 
