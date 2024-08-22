@@ -13,8 +13,8 @@ import streamlit as st
 st.set_page_config(layout="centered")
 st.subheader("Welcome to the Attrition predictor")
 
-model = open("model.pkl", "rb") #open and read model in binary format
-classifier = pickle.load(model)
+with open('model.pkl', 'rb') as model:
+    classifier = pickle.load(model)
 
 
 
