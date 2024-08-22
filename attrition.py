@@ -4,7 +4,6 @@ Created on Wed Aug 21 09:05:27 2024
 
 @author: DELL
 """
-!pip install sklearn
 import numpy as np
 import pandas as pd
 import pickle
