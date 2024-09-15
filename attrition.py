@@ -28,7 +28,7 @@ def predict_attrition(salary, jobLevel, salaryPerJobLevel, departmentLevelSalary
 def main():
     html_temp = """
     <div style="background-color:#41B3A2;padding:10px";border-radius:50%>
-    <h2 style="color:white;text-align:center;">Streamlit Attrition Predictor</h2>
+    <h2 style="color:white;text-align:center;">Biker Nation's Attrition Predictor</h2>
     </div>"""
     
     job_level_list = [1,2,3,4,5]
